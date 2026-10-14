@@ -1,0 +1,110 @@
+{
+  "all_passed": true,
+  "total_checks": 15,
+  "passed_checks": 15,
+  "target_url": "https://vertexaisearch.cloud.google.com/us/home/cid/a553b3f6-6377-415d-bde8-6ba45fdaa472?hl=en_US",
+  "checks": [
+    {
+      "check": "sidebar_icon_16px",
+      "passed": true,
+      "detail": "path=icon-16.png, valid_png=True, dimensions=16x16"
+    },
+    {
+      "check": "sidebar_icon_32px",
+      "passed": true,
+      "detail": "path=icon-32.png, valid_png=True, dimensions=32x32"
+    },
+    {
+      "check": "sidebar_icon_48px",
+      "passed": true,
+      "detail": "path=icon-48.png, valid_png=True, dimensions=48x48"
+    },
+    {
+      "check": "sidebar_icon_128px",
+      "passed": true,
+      "detail": "path=icon-128.png, valid_png=True, dimensions=128x128"
+    },
+    {
+      "check": "sidebar_icon_512px",
+      "passed": true,
+      "detail": "path=icon-512.png, valid_png=True, dimensions=512x512"
+    },
+    {
+      "check": "single_unified_folder",
+      "passed": true,
+      "detail": "sidebar_dir_exists=True, legacy_gx_mod_removed=True"
+    },
+    {
+      "check": "workspace_reference_and_mods_layout",
+      "passed": true,
+      "detail": "reference_dir=True, root_readme=True, mods=['Gemini_Enterprise_Sidebar']"
+    },
+    {
+      "check": "manifest_version_3",
+      "passed": true,
+      "detail": "manifest_version=3"
+    },
+    {
+      "check": "opera_gx_sidebar_action",
+      "passed": true,
+      "detail": "default_panel=sidepanel/panel.html, exists=True"
+    },
+    {
+      "check": "chromium_side_panel",
+      "passed": true,
+      "detail": "default_path=sidepanel/panel.html, exists=True"
+    },
+    {
+      "check": "background_service_worker",
+      "passed": true,
+      "detail": "service_worker=background/service-worker.js, exists=True"
+    },
+    {
+      "check": "manifest_permissions",
+      "passed": true,
+      "detail": "permissions=['cookies', 'declarativeNetRequest', 'declarativeNetRequestWithHostAccess', 'sidePanel']"
+    },
+    {
+      "check": "sec_fetch_and_framing_rules",
+      "passed": true,
+      "detail": "rules/framing-rules.json overrides Sec-Fetch-Dest/Sec-Fetch-Site and strips XFO/CSP/COOP/CORP"
+    },
+    {
+      "check": "clean_full_bleed_iframe_without_top_menu_or_resizer",
+      "passed": true,
+      "detail": "panel.html declares static #gemini-frame src with preconnect hints, no top menu, and no custom resize handle"
+    },
+    {
+      "check": "dynamic_cookie_and_iframe_boot",
+      "passed": true,
+      "detail": "service-worker.js batches cookie reads with signature caching and panel.js avoids importing service-worker.js in the UI process"
+    }
+  ],
+  "generated_icons": [
+    {
+      "path": "mods\\Gemini_Enterprise_Sidebar\\icons\\icon-16.png",
+      "size": 16,
+      "bytes": 147
+    },
+    {
+      "path": "mods\\Gemini_Enterprise_Sidebar\\icons\\icon-32.png",
+      "size": 32,
+      "bytes": 297
+    },
+    {
+      "path": "mods\\Gemini_Enterprise_Sidebar\\icons\\icon-48.png",
+      "size": 48,
+      "bytes": 444
+    },
+    {
+      "path": "mods\\Gemini_Enterprise_Sidebar\\icons\\icon-128.png",
+      "size": 128,
+      "bytes": 1924
+    },
+    {
+      "path": "mods\\Gemini_Enterprise_Sidebar\\icons\\icon-512.png",
+      "size": 512,
+      "bytes": 32168
+    }
+  ]
+}

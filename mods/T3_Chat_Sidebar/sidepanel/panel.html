@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T3 Chat</title>
+  <link rel="preconnect" href="https://t3.chat" crossorigin>
+  <link rel="preconnect" href="https://api.sync.t3.chat" crossorigin>
+  <link rel="preconnect" href="https://clerk.t3.chat" crossorigin>
+  <link rel="dns-prefetch" href="https://accounts.t3.chat">
+  <link rel="dns-prefetch" href="https://accounts.google.com">
+  <link rel="stylesheet" href="panel.css">
+</head>
+<body>
+  <iframe
+    id="t3-frame"
+    title="T3 Chat"
+    src="https://t3.chat/"
+    allow="clipboard-read; clipboard-write; microphone; camera; fullscreen; display-capture"
+  ></iframe>
+  <script type="module" src="panel.js"></script>
+</body>
+</html>
